@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tasksflow/modules/home/home_page.dart';
+import 'package:tasksflow/modules/login/login_page.dart';
 import 'package:tasksflow/modules/splash/splash_page.dart';
 import 'package:tasksflow/shared/themes/app_colors.dart';
 
@@ -16,7 +18,7 @@ class AppWidget extends StatelessWidget {
       theme: ThemeData(
         primaryColor: AppColors.primary,
       ),
-      home: SplashPage(),
+      home: const HomePage(),
     );
   }
 }

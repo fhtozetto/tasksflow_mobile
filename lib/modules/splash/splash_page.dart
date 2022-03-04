@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tasksflow/shared/themes/app_colors.dart';
-import 'package:tasksflow/shared/themes/app_imagens.dart';
+import 'package:tasksflow/shared/themes/app_images.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({Key? key}) : super(key: key);
